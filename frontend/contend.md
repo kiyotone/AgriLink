@@ -63,7 +63,7 @@ By connecting farmers and sellers directly, the platform provides a simple and e
 
 ### Customer testimonials
 
-1. "I've been using AgriLink for a few months now and I'm blown away by the quality of produce I've been able to access. The platform makes it so easy to find local farmers and purchase their fresh produce. I love being able to support sustainable agriculture and my local community, all while getting delicious and high-quality produce for my business. I highly recommend this platform to anyone looking for an efficient and reliable source of fresh, local produce." -Ken Block(Buyer)
+1. "I've been using AgriLink for a few months now and I'm blown away by the quality of produce I've been able to access. The platform makes it so easy to find local farmers and purchase their fresh produce. I love being able to support sustainable agriculture and my local community, all while getting delicious and high-quality produce for my business. I highly recommend this platform to anyone looking for an efficient and reliable source of fresh, local produce." -Aaditya(Buyer)
 
 2. "As a small farmer, I was struggling to find reliable buyers for my produce. That all changed when I signed up for AgriLink. The platform has opened up a whole new market for me, connecting me directly with buyers who appreciate the quality of my locally grown produce. I've been able to increase my sales and reach a wider audience, all while reducing my dependence on middlemen. I couldn't be happier with the results, and I highly recommend this platform to any farmer looking to grow their business." -Kirtan(Farmer)
 
@@ -88,3 +88,24 @@ Join us in our mission to support sustainable agriculture and local communities 
 Your generosity will allow us to invest in new technology, expand our reach, and support local farmers as they work to provide fresh, locally grown produce to their communities. With your help, we can continue to make a positive impact on the environment and our local communities.
 
 To make a donation, simply click on the "Donate" button on our website and follow the instructions. Every donation, no matter the size, makes a difference and is greatly appreciated. Thank you for your support.
+
+<!-- ---01 Typography System---
+-FONT SIZE SYSTEM (px)
+ 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-Font Weights:
+ Default: 400
+ Medium: 500
+ Semi-BOld: 600
+ Bold: 700
+
+-Line heights:
+ Default: 1
+ Small: 1.05
+ medium: 1.2
+ Paragraph Defult: 1.6 -->
+
+ <!-- --- 02 Whitespace
+ -SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */ -->
