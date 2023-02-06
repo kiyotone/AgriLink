@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(${bg.src})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(${bg.src})`,
       }}
       className="bg-fixed bg-center bg-no-repeat bg-cover bg-hero-pattern"
     >
-      <MadeContainer className="max-w-5xl">
-        <div className=" pt-52 pb-10">
+      <MadeContainer className="max-w-5xl text-center">
+        <div className=" pt-52 pb-48">
           <h2 className="text-5xl mb-3 leading-[4rem] tracking-tighter font-semibold">
             AgriLink : A Marketplace for Fresh, Local Produce
           </h2>

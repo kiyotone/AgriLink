@@ -1,5 +1,5 @@
 const MadeContainer = (props) => {
-  const containerClass = " mx-auto text-center " + props.className;
+  const containerClass = "mx-auto " + props.className;
   return <div className={containerClass}>{props.children}</div>;
 };
 
