@@ -1,5 +1,5 @@
 import MadeContainer from "@/UI/container/Container";
-import bg from "./Hero.jpg";
+import bg from "./PictureHero.jpg";
 
 const Hero = () => {
   return (

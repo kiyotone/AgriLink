@@ -3,9 +3,9 @@ import Navigation from "@/components/HomePage/Nav/Navigation";
 import MadeContainer from "@/UI/container/Container";
 
 import { useEffect, useRef, useState } from "react";
-import Hero from "../components/HomePage/hero/Hero";
+import Hero from "./hero/Hero";
 
-const frontpage = () => {
+const Frontpage = () => {
   const heroRef = useRef(null);
   const [isVisible, setIsVIsible] = useState(true);
 
@@ -43,4 +43,4 @@ const frontpage = () => {
   );
 };
 
-export default frontpage;
+export default Frontpage;
