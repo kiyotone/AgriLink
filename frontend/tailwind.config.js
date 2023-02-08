@@ -21,7 +21,12 @@ module.exports = {
 
       xs: { max: "380px" },
     },
-    extend: {},
+    extend: {
+      colors:{
+        primary: "#18332f",
+        secondary: "#19a463"
+      }
+    },
   },
   plugins: [],
 };

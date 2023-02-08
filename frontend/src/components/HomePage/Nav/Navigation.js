@@ -1,6 +1,9 @@
+import { useRouter } from "next/router";
 import { useState } from "react";
 
 const Navigation = (props) => {
+
+  const router = useRouter();
   const [burgerMenuIsOpen, setBurgerMenuIsOpen] = useState(false);
   const classes =
     `w-full flex justify-between transition-all ease-in-out md:justify-start p-6 items-center h-[90px] ${
@@ -47,7 +50,7 @@ const Navigation = (props) => {
             <li className="link text-lg">About Us</li>
             <li className="link text-lg">Donate Us</li>
             <li>
-              <button className="button text-lg">Login</button>
+              <button onClick={()=>router.push('/auth/login')} className="button text-lg">Login</button>
             </li>
           </ul>
         </div>
@@ -59,7 +62,7 @@ const Navigation = (props) => {
         <li className="link text-lg">About Us</li>
         <li className="link text-lg">Donate Us</li>
         <li>
-          <button className="button text-lg">Login</button>
+          <button onClick={()=>router.push('/auth/login')} className="button text-lg">Login</button>
         </li>
       </ul>
     </div>
