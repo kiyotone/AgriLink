@@ -9,21 +9,19 @@ const Hero = () => {
       }}
       className="bg-fixed bg-center bg-no-repeat bg-cover bg-hero-pattern"
     >
-      <MadeContainer className="max-w-6xl h-[100vh] flex flex-col justify-center ">
-        <h2 className="text-5xl mb-3 leading-[4rem] tracking-tighter font-semibold">
+      <MadeContainer className="max-w-6xl h-[100vh] flex flex-col justify-center lg:max-w-4xl md:max-w-2xl sm:max-w-sm md:text-lg sm:text-[0.8rem] xs:max-w-[18rem]">
+        <div className="text-5xl mb-3 leading-[4rem] tracking-tighter font-semibold md:text-4xl sm:text-2xl">
           AgriLink : A Marketplace for Fresh, Local Produce
-        </h2>
-        <p className="mt-3 text-base tracking-widest leading-6 text-justify">
+        </div>
+        <p className="mt-3 text-base tracking-widest leading-6 text-justify md:tracking-normal sm:tracking-tight sm:leading-6">
           "AgriLink" is an online marketplace that connects farmers with buyers,
           offering a wide selection of fresh, locally grown produce through a
           simple and efficient ordering process, while supporting sustainable
           agriculture and local communities.
         </p>
-        <div className="my-10 flex gap-4">
-          <button className="button text-2xl">Get Started</button>
-          <button className="button bg-[#61876E] text-2xl">
-            Learn More &darr;
-          </button>
+        <div className="my-10 flex gap-4 text-2xl md:text-lg sm:text-base ">
+          <button className="button  ">Get Started</button>
+          <button className="button bg-[#61876E] ">Learn More &darr;</button>
         </div>
 
         {/* <div class="delivered-meals">

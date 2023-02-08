@@ -36,7 +36,7 @@ const Frontpage = () => {
       <div ref={heroRef}>
         <Hero />
       </div>
-      <MadeContainer className="max-w-7xl mt-28">
+      <MadeContainer className="max-w-7xl ">
         <HowItWorks />
       </MadeContainer>
     </div>

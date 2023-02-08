@@ -3,7 +3,7 @@ import { useState } from "react";
 const Navigation = (props) => {
   const [burgerMenuIsOpen, setBurgerMenuIsOpen] = useState(false);
   const classes =
-    `w-full flex justify-between transition-all duration-[2000ms] ease-in-out md:justify-start p-6 items-center h-[90px] ${
+    `w-full flex justify-between transition-all ease-in-out md:justify-start p-6 items-center h-[90px] ${
       burgerMenuIsOpen
         ? "bg-gradient-to-r from-[rgb(60,98,85,0.6)] to-[rgb(97,135,110,0.9)] "
         : ""
