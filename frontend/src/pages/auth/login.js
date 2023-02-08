@@ -1,7 +1,4 @@
 import React from 'react'
-import { SECONDARY_BUTTON_COLOR,MAIN_BUTTON_COLOR } from 'public/assets/constants/COLOR_CONSTANTS';
-
-
 
 const login = () => {
   const border_color = "#727375";
