@@ -8,6 +8,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      "2xl": { max: "1535px" },
+
+      xl: { max: "1279px" },
+
+      lg: { max: "1024px" },
+
+      md: { max: "768px" },
+
+      sm: { max: "639px" },
+    },
     extend: {},
   },
   plugins: [],
