@@ -5,7 +5,8 @@ const login = () => {
   return (
     <div class="flex items-center justify-center h-screen">
         
-        <div className='w-[24rem]  bg-black flex flex-col items-center shadow-md rounded-xl'>
+        
+        <div className='w-[24rem]  bg-background_color flex flex-col items-center shadow-md rounded-xl'>
         <div className='m-4 text-[2rem] font-bold'>Join US</div>
             <div className=' w-[18rem] h-[14rem] '>
                 {/* facebook

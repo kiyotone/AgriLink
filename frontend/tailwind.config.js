@@ -25,7 +25,8 @@ module.exports = {
       colors:{
         primary: "#18332f",
         secondary: "#19a463",
-        button_secondary: "#19a463"
+        button_secondary: "#19a463",
+        background_color : "##dbd9d9"
       }
     },
   },
