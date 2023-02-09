@@ -26,19 +26,23 @@ const Frontpage = () => {
 
   return (
     <div>
-      <Navigation
-        className={`${
-          !isVisible
-            ? "fixed bg-[#7eb599] duration-300 ease-in-out transition-all"
-            : "absolute"
-        }`}
-      />
-      <div ref={heroRef}>
-        <Hero />
+      <div className="text-[#eee]">
+        <Navigation
+          className={`z-20 ${
+            !isVisible
+              ? "fixed bg-gradient-to-r  to-[rgb(60,98,85,0.95)] from-[rgba(80,116,93,0.9)] duration-300 ease-in-out transition-all"
+              : "absolute"
+          }`}
+        />
+        <div ref={heroRef}>
+          <Hero />
+        </div>
       </div>
-      <MadeContainer className="max-w-7xl ">
+      <MadeContainer className="max-w-7xl mt-24">
         <HowItWorks />
       </MadeContainer>
+      <div className="h-[5px] w-full max-w-[90vw] mx-auto border-t-2 border-[#bdbcbc]"></div>
+      <div className="my-24"></div>
     </div>
   );
 };

@@ -1,14 +1,12 @@
-import { useRouter } from "next/router";
 import { useState } from "react";
+import Menus from "./Menus";
 
 const Navigation = (props) => {
-
-  const router = useRouter();
   const [burgerMenuIsOpen, setBurgerMenuIsOpen] = useState(false);
   const classes =
     `w-full flex justify-between transition-all ease-in-out md:justify-start p-6 items-center h-[90px] ${
       burgerMenuIsOpen
-        ? "bg-gradient-to-r from-[rgb(60,98,85,0.6)] to-[rgb(97,135,110,0.9)] "
+        ? "bg-gradient-to-r to-[rgb(60,98,85,0.95)] from-[rgba(80,116,93,0.9)] shadow-lg"
         : ""
     }` + props.className;
 
@@ -40,31 +38,15 @@ const Navigation = (props) => {
           ></div>
         </div>
         <div
-          className={`absolute top-[90px] left-0  w-full bg-gradient-to-r  from-[rgb(60,98,85,0.7)] to-[rgb(97,135,110,0.95)] h-[75vh] ${
+          className={`absolute top-[90px] left-0  w-full bg-gradient-to-r  to-[rgb(60,98,85,0.95)] from-[rgba(80,116,93,0.9)] h-[75vh] ${
             burgerMenuIsOpen ? "block" : "hidden"
           }`}
         >
-          <ul className="list-none gap-14 flex items-center flex-col mt-16">
-            <li className="link text-lg">How it Works</li>
-            <li className="link text-lg"> Features</li>
-            <li className="link text-lg">About Us</li>
-            <li className="link text-lg">Donate Us</li>
-            <li>
-              <button onClick={()=>router.push('/auth/login')} className="button text-lg">Login</button>
-            </li>
-          </ul>
+          <Menus className="flex-col mt-14" />
         </div>
       </div>
 
-      <ul className="list-none gap-14 flex items-center lg:gap-8 md:hidden">
-        <li className="link text-lg">How it Works</li>
-        <li className="link text-lg"> Features</li>
-        <li className="link text-lg">About Us</li>
-        <li className="link text-lg">Donate Us</li>
-        <li>
-          <button onClick={()=>router.push('/auth/login')} className="button text-lg">Login</button>
-        </li>
-      </ul>
+      <Menus className="lg:gap-8 md:hidden" />
     </div>
   );
 };
