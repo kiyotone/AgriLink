@@ -14,8 +14,8 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  color: #ddd;
-  background-color: #dfdede;
+  color: #333;
+  background-color: #dbd9d9;
 }
 
 @layer components {
