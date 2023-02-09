@@ -6,7 +6,7 @@ const Navigation = (props) => {
   const classes =
     `w-full flex justify-between transition-all ease-in-out md:justify-start p-6 items-center h-[90px] ${
       burgerMenuIsOpen
-        ? "bg-gradient-to-r to-[rgb(60,98,85,0.95)] from-[rgba(80,116,93,0.9)] shadow-lg"
+        ? "md:bg-gradient-to-r md:to-[rgb(60,98,85,0.95)] md:from-[rgba(80,116,93,0.9)] shadow-lg"
         : ""
     }` + props.className;
 

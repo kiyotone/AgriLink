@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 
 const Menus = (props) => {
-  const classes = "list-none gap-14 flex items-center z-30 " + props.className;
+  const classes = "list-none gap-14 flex items-center z-50 " + props.className;
   const router = useRouter();
 
   return (
