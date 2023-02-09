@@ -4,7 +4,7 @@ import Menus from "./Menus";
 const Navigation = (props) => {
   const [burgerMenuIsOpen, setBurgerMenuIsOpen] = useState(false);
   const classes =
-    `w-full flex justify-between transition-all ease-in-out md:justify-start p-6 items-center h-[90px] ${
+    `w-full flex justify-between transition-all ease-in-out md:justify-start p-6 items-center h-[90px] z-50 ${
       burgerMenuIsOpen
         ? "md:bg-gradient-to-r md:to-[rgb(60,98,85,0.95)] md:from-[rgba(80,116,93,0.9)] shadow-lg"
         : ""
