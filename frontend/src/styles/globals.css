@@ -20,7 +20,7 @@ body {
 
 @layer components {
   .button {
-    @apply bg-[#18332f] rounded-md px-8 py-2 cursor-pointer hover:bg-[#295a52] transition-all ease-in-out duration-500 md:px-5 xs:px-2;
+    @apply bg-[#18332f] rounded-md px-8 py-2 cursor-pointer hover:bg-[#295a52] transition-all ease-in-out duration-300 md:px-5 xs:px-2;
   }
 
   .link {
