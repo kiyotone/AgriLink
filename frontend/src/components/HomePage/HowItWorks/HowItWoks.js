@@ -1,3 +1,4 @@
+
 const HowItWorks = () => {
   return (
     <div className="p-3 rounded-xl mb-24">
@@ -54,6 +55,7 @@ const HowItWorks = () => {
           </p>
         </div>
       </div>
+ 
     </div>
   );
 };
