@@ -27,7 +27,7 @@ const login = () => {
                 
                 <div className={`w-[19rem] h-[3rem] flex items-center justify-between text-[.8rem] text-[#727375}]`}>
                 
-                <div className='flex items-center'><input type="checkbox" id='remember' placeholder='Password' className={`mr-2 bg-transparent border-2 rounded-md border-[${border_color}] w-[1rem] h-[1rem]`}/><label htmlFOR='remember'> Remember Me</label></div>
+                <div className='flex items-center'><input type="checkbox" id='remember' placeholder='Password' className={`mr-2 bg-transparent border-2 rounded-md border-[${border_color}] w-[1rem] h-[1rem]`}/><label htmlFor='remember'> Remember Me</label></div>
                 
                 <div className={`text-[#007628] cursor-pointer hover:underline underline-offset-1`}>Forgot Password?</div>
                 
