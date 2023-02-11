@@ -15,7 +15,7 @@ const Menus = (props) => {
       <li className="link text-lg">
         <a>About Us</a>
       </li>
-      <li className="link text-lg">
+      <li onClick={()=>router.push('/donate/donate')} className="link text-lg">
         <a>Donate Us</a>
       </li>
       <li>

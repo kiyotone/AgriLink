@@ -1,4 +1,6 @@
 import React from 'react'
+import veg from '../../../assets/images/veg.jpg'
+import Image from "next/image";
 
 const Donate = () => {
   return (
@@ -6,7 +8,7 @@ const Donate = () => {
      <div className='h-[45rem] relative '>
 
 <div className=' z-0 absolute h-[100%] w-[100%] '>
-  <img  className='  h-[100%]  w-[100%] ' src="veg.jpg" ></img></div>
+  <Image  className= 'h-[100%]  w-[100%]' src={veg}/></div>
   <div className='z-20 absolute text-white mt-[10rem] pl-[8rem] text-[36px] md:pl-[3rem] md:text-[28px] sm:pl-[1.5rem] sm:text-[20px]'  >Support Us</div>
 <div  className="z-10 absolute text-white mt-[16rem] pl-[8rem] text-[24px] font-bold md:text-[20px]  md:pl-[3rem]  sm:pl-[1.5rem] sm:text-[16px] sm:mt-[14rem]">
  AgriLink invites an individual,foundations and corporations<br></br>
