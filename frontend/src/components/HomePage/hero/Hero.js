@@ -42,7 +42,7 @@ const Hero = () => {
             })}
           </div>
 
-          <a className="link lg:base">
+          <a className="link lg:base ">
             See What they have to say about us &darr;
           </a>
         </div>

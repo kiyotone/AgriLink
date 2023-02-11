@@ -38,7 +38,7 @@ const Frontpage = () => {
           <Hero />
         </div>
       </div>
-      <MadeContainer className="max-w-7xl mt-24">
+      <MadeContainer className="3xl:max-w-[1440px] 2xl:max-w-7xl mt-24">
         <HowItWorks />
       </MadeContainer>
       <div className="h-[5px] w-full max-w-[90vw] mx-auto border-t-2 border-[#bdbcbc]"></div>

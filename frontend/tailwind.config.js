@@ -9,6 +9,7 @@ module.exports = {
   ],
   theme: {
     screens: {
+      "3xl": { max: "2560px" },
       "2xl": { max: "1535px" },
 
       xl: { max: "1279px" },
@@ -22,12 +23,15 @@ module.exports = {
       xs: { max: "380px" },
     },
     extend: {
-      colors:{
+      colors: {
         primary: "#18332f",
         secondary: "#19a463",
         button_secondary: "#19a463",
-        background_color : "##dbd9d9"
-      }
+        background_color: "##dbd9d9",
+      },
+      gridTemplateColumns: {
+        0: "none",
+      },
     },
   },
   plugins: [],
