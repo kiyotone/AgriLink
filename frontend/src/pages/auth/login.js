@@ -3,7 +3,7 @@ import React from 'react'
 const login = () => {
   const border_color = "#727375";
   return (
-    <div class="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center h-screen">
         
         
         <div className='w-[24rem]  bg-background_color flex flex-col items-center shadow-md rounded-xl'>
