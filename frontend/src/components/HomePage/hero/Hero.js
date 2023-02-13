@@ -12,7 +12,7 @@ const Hero = () => {
       }}
       className="bg-fixed bg-center bg-no-repeat bg-cover bg-hero-pattern h-[100vh] relative "
     >
-      <MadeContainer className="max-w-6xl h-[100vh] flex flex-col pt-52 lg:max-w-4xl text-base md:max-w-2xl sm:max-w-sm md:text-base lg:text-sm xs:max-w-[18rem] sm:pt-44 xs:pt-36">
+      <div className="max-w-6xl mx-auto h-[100vh] flex flex-col pt-52 lg:max-w-4xl text-base md:max-w-2xl sm:max-w-sm md:text-base lg:text-sm xs:max-w-[18rem] sm:pt-44 xs:pt-36">
         <div className="text-5xl mb-3 leading-[4rem] tracking-tighter font-semibold md:text-4xl sm:text-2xl">
           AgriLink : A Marketplace for Fresh, Local Produce
         </div>
@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
 
         <div className="mt-2"></div>
-      </MadeContainer>
+      </div>
     </div>
   );
 };

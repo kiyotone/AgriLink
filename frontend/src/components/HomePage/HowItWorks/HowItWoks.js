@@ -1,7 +1,9 @@
 const HowItWorks = () => {
   return (
-    <div className="p-3 rounded-xl mb-24">
-      <h2 className="text-base uppercase font-bold ">How it works</h2>
+    <div className="p-3 mb-24">
+      <h2 className="text-lg uppercase font-bold text-[#3C6255]">
+        How it works
+      </h2>
 
       <p className="mt-8 tracking-wider">
         "AgriLink: A Marketplace for Fresh, Local Produce" works by allowing

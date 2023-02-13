@@ -3,6 +3,7 @@ import Navigation from "@/components/HomePage/Nav/Navigation";
 import MadeContainer from "@/UI/container/Container";
 
 import { useEffect, useRef, useState } from "react";
+import Features from "./Features/features";
 import Hero from "./hero/Hero";
 
 const Frontpage = () => {
@@ -38,11 +39,14 @@ const Frontpage = () => {
           <Hero />
         </div>
       </div>
-      <MadeContainer className="3xl:max-w-[1440px] 2xl:max-w-7xl mt-24">
+      <MadeContainer className="3xl:max-w-[1440px] 2xl:max-w-7xl ">
         <HowItWorks />
       </MadeContainer>
       <div className="h-[5px] w-full max-w-[90vw] mx-auto border-t-2 border-[#bdbcbc]"></div>
-      <div className="my-24"></div>
+      <MadeContainer className="3xl:max-w-[1440px] 2xl:max-w-7xl ">
+        <Features />
+      </MadeContainer>
+      <div className="h-[5px] w-full max-w-[90vw] mx-auto border-t-2 border-[#bdbcbc]"></div>
     </div>
   );
 };

@@ -31,9 +31,9 @@ Neutral color: White (#EAE7B1)
 
 4. Search filters: Buyers can use search filters such as product type, location, and price range to quickly find the produce they need.
 
-5. Product descriptions and photos: Farmers can provide product descriptions and photos to help buyers understand what they're buying.
+<!-- 5. Product descriptions and photos: Farmers can provide product descriptions and photos to help buyers understand what they're buying.
 
-6. Support for sustainable agriculture and local communities: By connecting farmers and buyers directly, the platform supports sustainable agriculture and local communities.
+6. Support for sustainable agriculture and local communities: By connecting farmers and buyers directly, the platform supports sustainable agriculture and local communities. -->
 
 7. User-friendly interface: The platform has a user-friendly interface that makes it easy for farmers and buyers to use.
 

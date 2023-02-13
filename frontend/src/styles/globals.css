@@ -26,4 +26,8 @@ body {
   .link {
     @apply cursor-pointer hover:text-[#a3c88e] transition-all ease-in-out duration-300 lg:text-sm;
   }
+
+  .tabs {
+    @apply rounded-3xl py-3 px-4 -translate-y-5 shadow-md transition-all duration-300;
+  }
 }
