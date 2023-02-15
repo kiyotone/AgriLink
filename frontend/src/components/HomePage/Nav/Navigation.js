@@ -38,7 +38,7 @@ const Navigation = (props) => {
           ></div>
         </div>
         <div
-          className={`absolute top-[90px] left-0  w-full bg-gradient-to-r  to-[rgb(60,98,85,0.95)] from-[rgba(80,116,93,0.9)] h-[75vh] ${
+          className={`absolute top-[90px] left-0  w-full bg-gradient-to-r  to-[rgb(60,98,85,0.95)] from-[rgba(80,116,93,0.9)] h-[75vh] sm:h-[60vh] xs:h-[50vh] ${
             burgerMenuIsOpen ? "block" : "hidden"
           }`}
         >

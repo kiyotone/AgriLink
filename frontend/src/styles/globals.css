@@ -8,6 +8,9 @@
   padding: 0;
   margin: 0;
 }
+html {
+  font-size: 90%;
+}
 
 html,
 body {
@@ -24,10 +27,32 @@ body {
   }
 
   .link {
-    @apply cursor-pointer hover:text-[#a3c88e] transition-all ease-in-out duration-300 lg:text-sm;
+    @apply cursor-pointer hover:text-[rgb(163,200,142)] transition-all ease-in-out duration-300 lg:text-sm;
   }
 
   .tabs {
     @apply rounded-3xl py-3 px-4 -translate-y-5 shadow-md transition-all duration-300;
+  }
+
+  .secondary-heading {
+    @apply text-lg uppercase font-bold text-[rgb(97,135,110)];
+  }
+}
+
+@media (max-width: 769px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 426px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 55%;
   }
 }
