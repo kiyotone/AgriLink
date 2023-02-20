@@ -10,25 +10,27 @@ const Hero = () => {
       style={{
         backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(${bg.src})`,
       }}
-      className="bg-fixed bg-center bg-no-repeat bg-cover bg-hero-pattern h-[100vh] relative "
+      className="bg-fixed bg-center bg-no-repeat bg-cover bg-hero-pattern  relative "
     >
-      <div className="max-w-6xl mx-auto h-[100vh] flex flex-col pt-52 lg:max-w-4xl text-base md:max-w-2xl sm:max-w-sm md:text-base lg:text-sm xs:max-w-[18rem] sm:pt-44 xs:pt-36">
-        <div className="text-5xl mb-3 leading-[4rem] tracking-tighter font-semibold md:text-4xl sm:text-2xl">
+      <div className="max-w-6xl mx-auto  flex flex-col py-52 lg:max-w-4xl text-base sm:max-w-xl xs:max-w-xl xss:max-w-lg">
+        <div className="text-5xl mb-3 leading-[4rem] tracking-tighter font-semibold">
           AgriLink : A Marketplace for Fresh, Local Produce
         </div>
-        <p className="mt-3  tracking-widest leading-6 text-justify md:tracking-normal md:leading-8 sm:tracking-tight sm:leading-5 ">
+        <p className="mt-3 tracking-widest leading-6 text-justify text-lg">
           "AgriLink" is an online marketplace that connects farmers with buyers,
           offering a wide selection of fresh, locally grown produce through a
           simple and efficient ordering process, while supporting sustainable
           agriculture and local communities.
         </p>
-        <div className="my-10 flex gap-4 text-2xl md:text-lg sm:text-base ">
+        <div className="my-10 flex gap-4 text-2xl  ">
           <button className="button  ">Get Started</button>
           <button className="button bg-[#61876E] ">Learn More &darr;</button>
         </div>
 
-        <div className="flex flex-col gap-5 mt-10 xs:mt-5">
-          <p className="">Already connecting thounds of farmers and buyers.</p>
+        <div className="flex flex-col gap-5 mt-10 ">
+          <p className="text-lg">
+            Already connecting thounds of farmers and buyers.
+          </p>
           <div className="flex gap-[-10px]">
             {customers.map((content, i) => {
               return (
@@ -42,7 +44,7 @@ const Hero = () => {
             })}
           </div>
 
-          <a className="link lg:base ">
+          <a className="link text-lg">
             See What they have to say about us &darr;
           </a>
         </div>
