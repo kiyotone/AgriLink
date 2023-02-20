@@ -1,8 +1,13 @@
 import { useState } from "react";
 import Menus from "./Menus";
+import Login from "@/pages/auth/login";
+import {useSelector} from 'react-redux'
 
 const Navigation = (props) => {
+
+  const main = useSelector((state)=>state.main);
   const [burgerMenuIsOpen, setBurgerMenuIsOpen] = useState(false);
+  
   const classes =
     `w-full flex justify-between transition-all ease-in-out md:justify-start p-6 items-center h-[90px] z-50 ${
       burgerMenuIsOpen
@@ -16,7 +21,9 @@ const Navigation = (props) => {
   };
 
   return (
+    
     <div className={classes}>
+      {main.loginPopup && <Login />}
       <div className="md:text-center md:w-[95%] ">AgriLink</div>
 
       <div className="hidden md:block">

@@ -1,12 +1,15 @@
 import React from 'react'
 
-const login = () => {
+const Login = () => {
+
   const border_color = "#727375";
+  
+  
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex bg-[rgba(0,0,0,.5)] overflow-hidden h-screen w-screen fixed top-0 left-0 items-center justify-center">
         
         
-        <div className='w-[24rem]  bg-background_color flex flex-col items-center shadow-md rounded-xl'>
+        <div className='w-[24rem]  bg-[#dbd9d9] flex flex-col items-center shadow-md rounded-xl'>
         <div className='m-4 text-[2rem] font-bold'>Join US</div>
             <div className=' w-[18rem] h-[14rem] '>
                 {/* facebook
@@ -49,4 +52,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
