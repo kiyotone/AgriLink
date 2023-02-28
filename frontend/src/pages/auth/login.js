@@ -1,15 +1,40 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux';
+import {useEffect} from 'react'
+import { toggleLoginPoppup } from '@/components/redux/features/mainSlicer';
+
 
 const Login = () => {
 
+  const main = useSelector((state)=>state.main)
+  const dispatch = useDispatch();
+
+  const onclose = () =>{
+    
+    dispatch(toggleLoginPoppup(false))
+    document.body.style.overflowY = 'unset'
+    console.log(main.loginPopup)
+    }
+
+  const CloseModal = (e) => {
+    
+    if (e.target.id == "login-modal"){
+      
+      onclose();
+
+    }
+    
+
+  }
+
   const border_color = "#727375";
   
-  
+
   return (
-    <div className="flex bg-[rgba(0,0,0,.5)] overflow-hidden h-screen w-screen fixed top-0 left-0 items-center justify-center">
+    <div id='login-modal' onClick={(e) => CloseModal(e)} className="flex bg-[rgba(0,0,0,.5)] overflow-hidden h-screen w-screen fixed top-0 left-0 items-center justify-center" >
         
         
-        <div className='w-[24rem]  bg-[#dbd9d9] flex flex-col items-center shadow-md rounded-xl'>
+        <div className='w-[24rem]  bg-[#dbd9d9] flex flex-col items-center shadow-md rounded-xl' >
         <div className='m-4 text-[2rem] font-bold'>Join US</div>
             <div className=' w-[18rem] h-[14rem] '>
                 {/* facebook

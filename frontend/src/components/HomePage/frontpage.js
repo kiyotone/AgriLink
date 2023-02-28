@@ -3,7 +3,7 @@ import Navigation from "@/components/HomePage/Nav/Navigation";
 import MadeContainer from "@/UI/container/Container";
 
 import { useEffect, useRef, useState } from "react";
-import AboutUs from "./AboutUs/AboutUs";
+
 import Features from "./Features/features";
 import Hero from "./hero/Hero";
 
@@ -49,7 +49,6 @@ const Frontpage = () => {
       </MadeContainer>
       <div className="h-[5px] w-full max-w-[90vw] mx-auto border-t-2 border-[#bdbcbc]"></div>
       <MadeContainer className="3xl:max-w-[1440px] 2xl:max-w-7xl max-w-6xl md:max-w-3xl">
-        <AboutUs />
       </MadeContainer>
     </div>
   );
